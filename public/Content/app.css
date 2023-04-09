@@ -1,0 +1,33 @@
+
+nav {
+  background-color: #82898b;
+}
+
+body {
+  background-color:#e0ecf0;
+}
+
+#homeMain,
+#errorPage {
+  background-color: #7fb0c4;
+}
+
+tr {
+  background-color: #a0b8c2;
+}
+
+@media print {
+  #statisticsTable {
+    visibility: visible;
+  }
+
+  #navHeader,
+  #detailedSurvey,
+  footer,
+  #addSurveyButton,
+  #printButton,
+  #surveyTitle,
+  br {
+    display: none;
+  }
+}
